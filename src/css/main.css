@@ -70,11 +70,74 @@ h1, h2 {
 }
 
 #hero h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: #fff;
 }
 
 #hero h2 {
-    font-size: px;
+    font-size: 40px;
     color: #fff;    
+}
+
+.container {
+    max-width: 1000px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    margin: 20px 0;
+    width: 96%;
+    padding: 0 2%;
+    height: 450px;
+}
+
+#tuition {
+    display: flex;
+    width: 96%;
+    padding: 20px 2%;
+}
+
+.card {
+    width: 33.33%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    padding: 20px 2%;
+    text-align: center;
+}
+
+#email {
+    width: 50%;
+    font-size: 14px;
+    padding: 6px 8px;
+}
+
+#submit {
+    font-size: 14px;
+    padding: 8px 10px;
+    background-color: #273c75;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #e84118;   
+    padding: 8px 12px; 
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #c23616;     
 }
