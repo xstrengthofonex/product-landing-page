@@ -110,6 +110,11 @@ h1, h2 {
     flex-direction: column;
 }
 
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
 #contact {
     padding: 20px 2%;
     text-align: center;
@@ -133,11 +138,30 @@ h1, h2 {
 .btn {
     background-color: #e84118;   
     padding: 8px 12px; 
-    margin: 0 auto;
+    margin: 10px auto;
     color: #fff;
     text-decoration: none;
 }
 
 .btn:hover {
     background-color: #c23616;     
+}
+
+@media screen and (max-width: 600px){
+    #header {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px 4%;
+        width: 92%;
+        min-height: 70px;
+        background-color: #fff; 
+    }
+
+    #nav-bar {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
 }
